@@ -8,3 +8,6 @@ Second you need paste my folder to Your_Patch/Mods/
 
 All of these mods are lua.
 
+# Translations:
+The first version of mod is called: Alphys the magician/wizrd human. The translation is by Teiyt. Thank you!
+
