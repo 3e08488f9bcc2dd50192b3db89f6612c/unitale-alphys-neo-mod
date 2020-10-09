@@ -1,0 +1,76 @@
+This is basically a text file where I wrote the script for the intro, and then used it to keep ideas I had for later. I'm leaving the file here for people to read and making it kind of a behind-the-scenes here cause WHY NOT?
+The original reason I started making this fight was because I had the idea of turning colored tile puzzles into an attack.
+I was also very disappointed that Mettaton NEO is not a real fight, as I was really looking forward to genocide-difficulty shoot-em-up attacks.
+So, that turned into Alphys NEO (I felt it more interesting than doing Mettaton NEO, and of course she's the real creator of Mettaton and the colored tile puzzles), and the story kinda wrote itself. It makes a lot of sense for her to fight you when you enter the lab... her genocide-neutral phone call is pretty intense. One line she has is something like, "I should have killed you when I had the chance."
+Gaster blasters happened because I thought of having the green tile monster be a little laser that fires in a random row/column periodically. So then... why not gaster blasters? Alphys would have access to them, left behind by Gaster! Or through her mysterious friendship with Sans that's hinted at...
+I also tried out having time rewind mechanics like Mettaton EX by using my own time variable instead of using Time.time. And it worked perfectly. I was very happy.
+Originally I was going to have quiz questions, but I had enough on my plate already. Also, they completely lack replayability. Remembering a tile puzzle's solution is one thing, but memorizing a quiz question is piss easy. And it wouldn't really fit the mood anyway... (The idea was that she would have an awesomely overpowered electric beam, but it was programmed to only be usable when someone gets a quiz question wrong. Kind of funny, but, eh.)
+I have the attacks in pairs of 2, at least to start out, because that's how the Mettaton EX fight works. His attacks all come in pairs. Although, the second attack is usually the exact same thing but just faster (in this case, I don't repeat anything really).
+I also tried to use a lot of familiar attacks/patterns from Undertale but in my own ways. For example, the Shielded Mettatons on attack 4. It's like Mettaton EX's attack where his heart is protected by a shootable box shield which occasionally flies out, then comes back in replenished. My shields fly out once the Mettaton gets shot, and the wave doesn't end until you've shot all three! I also have Asgore circles, my first rewind attack has a very similar pattern to Mettaton's rewind attack (except with added blasters; blasters are hard in reverse, there's VERY little warning!). And then I have totally new things like the space invaders wave, and piano mode.
+One thing that I felt was really missing from the main game is at least one attack that's rhythm based. A game so driven by its music, and yet there's never any bit of sync between where the music's at and what the attack is. I think the only kind of sync anything ever has is Asriel's fight turning rainbow with the drop in the BGM. So, I thought, what if I make a rhythm-based attack in the final attack? The ol' piano pattern, as done in the outro to the ABSOLUTELY KICKASS SONG you've been hearing. It's very difficult, but, hell, final attacks are supposed to be hard, eh? And, since it's the piano pattern... the best way to avoid it would be with movement like the piano! And so, piano mode. You'll note the overlay has dark gray copies of the piano symbols on the wall... A little hint.
+
+Final thoughts about the project... Well, it took a while. Dialogue-wise, I like my intro and pre/post-final attack bits, I think the attack dialogue is maybe a bit iffy. Her facial expressions are a bit iffy too. But I'm no Toby when it comes to that, and there's no way anyone could really truly write convincing dialogue as any of his characters except him, in my opinion. So, I did my best.
+What I really cared about is the programming. 14+ attacks, all with objects created to have as high accuracy to the real game as possible. I don't think I'm wrong in saying this is by far the biggest, possibly best fight anyone has made in Unitale thus far. But hey, I haven't seen them all, most of what I've seen has a goddamn Touhou wave. There's a lot of great code and recreations out there but they're all single things, instead of a big epic Undyne or Sans-tier fight. Anyway, I shouldn't brag too much. Hope you enjoyed the fight!
+
+
+
+H... hey.
+
+So... you're the one who's been killing all my friends.
+
+Undyne told me to hide with all the others. But... I'm stronger than she thinks. I've been working on cybernetic enhancements. Modding a monster's body, tapping into their SOUL, to give them increased strength, endurance, magical ability... and a pinch of "determination."
+
+I've made so many mistakes. And trying to stop you might be the last one. But... I'd rather die than live the rest of my life knowing I didn't even try.
+
+When the door in the forest opened up, I was excited. But... I saw the expression on your face. The dust covering your clothes. The way you walked. It was... all wrong.
+And then... The killing... You just kept killing, and killing, and killing... I watched you kill them all... All those innocent monsters... Snowdrake... Doggo... Shyren... Papyrus... U... U-Un... I... You...
+
+Um... I know I don't look different, but... That was a really cool transformation, trust me!!!
+
+Um... Pretend that was a really cool transformation, OK? All the changes are on the inside.
+
+Um... It's just an internal transformation...
+
+My name is Alphys. You killed my friends. Prepare to die!
+
+
+
+U-Undyne... I'm... sorry...
+
+(Add being able to press the C key to skip the battle intro?)
+(NOTE TO SELF: Soap tiles can send you out of bounds or into a red tile???)
+(NOTE TO SELF IDEA: "Don't be too hasty" puzzle filled with orange tiles and water tiles)
+(Have spark tiles and piranhas do 1 HP damage??)
+
+(Have an Act where you tell her about killing undyne, and have her do a really assholish attack because of it)
+
+Quiz question idea: A, B, C, or D's in the answers/question are shaking really hard, as a hint that thats the right answer to some crazy 2 trains question
+Idea: Only one letter is telling the truth. The four different answers all have different lies
+
+Gaster blasters as green square enemies
+
+SPACE INVADERS ATTACK WHERE THE ARENA IS ONLY 16 TALL?
+
+Idea for final attack crazyness: Have time stopped. Either rewind or fast forward into a blast. You have to take note of the icon in the bottom right to know what's coming
+
+"I have this really powerful electric beam attack! ...but I can only use it when you get a trivia question wrong."
+
+"You should have let Papyrus explain this one..."
+
+Circular attacks with shoot em up section
+
+A final attack that syncs with AURADDR, locks you into a grid piano style. Have little icons from the piano wall in grey underneath the 5 spots, as a hint.
+
+Half a second delay between shots as yellow soul (OR if you have zero bullets out, no delay).
+Shootable box breaking animation is 15 frames?
+The mettaton legs need to have a SMALLER HITBOX than visually shown
+
+Smells like noodles.
+
+A large circle of mettaton parasols that you have to enter into (keep blasting them before they fire)
+Gaster blasters set off plusbombs. Have rows of them on the left and right, blasters come in, you have to hug the top of the screen to avoid them
+
+Alphys has a different message if you finish a tile puzzle really quickly. "have you seen that one before?"
+
+
+Attack 1+2: Gasters+laserbots. Attack 3+4: Shoot em up. Attack 5+6: Tile puzzles. Attack 7+8: Introducing timeflow? Attack 9+10: More tile puzzle? Attack 11: Space invaders thing? After that, the attacks start looping?
